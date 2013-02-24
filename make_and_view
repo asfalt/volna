@@ -1,0 +1,5 @@
+#! /bin/bash
+pdflatex Project.tex   #Создаём документ
+evince Project.pdf     #Просматриваем документ 
+
+

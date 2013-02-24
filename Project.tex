@@ -1,0 +1,15 @@
+\documentclass[a4paper,12pt]{article} %размер бумаги устанавливаем А4, шрифт 12пунктов
+
+\input {packages}
+\input {styles}
+
+\begin{document}
+
+  \input{names}			% Переопределение именований
+
+  \input{Project-Title}    	% это титульный лист
+  \input{Glava1}           	% это глава 1
+  \newpage
+  \tableofcontents       	% это оглавление, которое генерируется автоматически
+  \addcontentsline{toc}{chapter}{\contentsname}  % Добавляем ссылку на оглавление в оглавление
+\end{document}
